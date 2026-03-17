@@ -1,0 +1,11 @@
+rootProject.name = 'VerusApp'
+include ':app'
+
+dependencyResolutionManagement {
+    repositories {
+        // Use your local Maven repo
+        maven {
+            url uri("/home/auctorus/m2repo")
+        }
+    }
+}
